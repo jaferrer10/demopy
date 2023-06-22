@@ -18,3 +18,11 @@ while num <= 10:
           continue
 
 print('Fin del bucle')
+
+lista=['1','2','3','u','f']
+
+for i in lista:
+     print('Elemento ', i, 'de la lista...')
+     
+long=len(lista)
+print('La lista tiene ', long, ' items....')
